@@ -14,13 +14,11 @@ public class Rectangle extends Shape {
 	public int getWidth() {
 		return width;
 	}
-	public void setWidth() {
+	public void setWidth(int width) {
 		this.width= width;
 	}
 	@Override
 	public void area() {
-		// TODO Auto-generated method stub
-		int rArea=getLength()*getWidth();
 		System.out.println("rectangle area= +rArea");
 	}
 	
